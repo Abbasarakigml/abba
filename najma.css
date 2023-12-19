@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+
+}
+
+.menu {
+    height: 63px;
+    padding: 10px;
+    background-color: rgb(5, 58, 58);
+    color: azure;
+    text-align: center;
+    margin-top: -10px;
+    /* margin-left: 20px; */
+}
+
+.link {
+    padding: 5px;
+    margin: 22px;
+    margin-top: -90px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+button {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid seagreen;
+    font-style: italic;
+    font-size: 17px;
+    padding-left: 14px;
+    padding-right: 12px;
+}
+
+button:hover {
+    background-color: seagreen;
+    color: white;
+    border: 1px solid seagreen;
+}
+
+
+
+
+.faqs-container {
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 450px;
+}
+
+.faqs-items {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.faqs-question {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.faqs-answer {
+    display: none;
+}
+
+.faqs-question::after {
+    content: "\2192";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.faqs-items.active .faqs-question {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.div {
+    width: 400px;
+    height: 140px;
+    margin-top: 80px;
+    background-color: #f4f4f4;
+    border: 2px solid seagreen;
+    margin-left: 15px;
+    border-radius: 1px;
+
+}
+
+
+
+.divs {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+
+
+}
+
+
+footer {
+    background-color: black;
+    margin-top: 10%;
+    padding: 10px;
+
+}
+
